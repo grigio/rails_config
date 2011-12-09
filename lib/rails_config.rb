@@ -10,7 +10,7 @@ module RailsConfig
   @@_ran_once = false
 
   mattr_accessor :const_name
-  @@const_name = "Settings"
+  @@const_name = "Configs"
 
   def self.setup
     yield self if @@_ran_once == false
